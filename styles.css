@@ -1,0 +1,303 @@
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(187, 46, 46);
+  }
+  
+  /* Bottom left text */
+  .home {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size:24px;
+  }
+  
+  /* Top left text */
+  .aboutus {
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    font-size:24px;
+  }
+  
+  /* Top right text */
+  .ourservices {
+    position: absolute;
+    top: 8px;
+    left: 40%;
+    font-size:24px;
+  }
+  
+  /* Bottom right text */
+  .projects{
+    position: absolute;
+    top: 8px;
+    left: 60%;
+    font-size:24px;
+  }
+  
+  /* Centered text */
+  .team {
+    position: absolute;
+    top: 8px;
+    left: 80%;
+    font-size:24px;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .joinus {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size:24px;
+    /* transform: translate(-50%, -50%); */
+  }
+
+  .skulearchiveteam {
+    position: absolute;
+    top: 120px;
+    /* right: 50%; */
+    /* left:50%; */
+    font-size:40px;
+    /* padding-left:500px; */
+  }
+
+  .bar {
+    background-color: black;
+  }
+  .smalldesc {
+    display:block;
+    position: absolute;
+    /* top: 60%; */
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* right: 50%; */
+    /* left:50%; */
+    font-size:40px;
+    /* padding-left:500px; */
+    padding-top:170px;
+    /* margin-left:50%; */
+    left:49%;
+  }
+
+  .box {
+      /* position: absolute;
+      width:30%;
+      height: 30px;
+      top:70%;
+      right: 80%;
+      left:20%; */
+      position: absolute;
+      background-color: lightgrey;
+      /* height: 50px; */
+      width: 400px;
+      border: 5px solid rgb(0, 0, 0);
+      text-decoration-color: black;
+      color:black;
+      margin-top: 370px;
+      margin: auto;
+      width: 60%;
+      border: 3px solid #73AD21;
+      padding: 10px;
+      /* padding: 50px; */
+      /* margin: 20px; */
+  }
+
+  .abu {
+    position: absolute;
+  }
+  
+  .toolbar {
+    position: absolute;
+    width: 100%;
+    color:rgb(0, 0, 0);
+    background-color: darksalmon;
+  }
+  
+  .skule {
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    font-size:24px;
+    margin:8px; 
+  }
+
+  .t1 {
+    /* color:chocolate;*/
+    position: absolute;
+    top: 8px;
+    left: 35%;
+    font-size:24px;
+    margin:8px; 
+  }
+
+   
+  .t2 {
+    position: absolute;
+    top: 8px;
+    left: 48%;
+    font-size:24px;
+    margin:8px;
+    color:darkblue;
+  }  
+  .t3 {
+    position: absolute; 
+    top: 8px;
+    left: 60%;
+    font-size:24px;
+    margin:8px;
+  }  
+  .t4 {
+    position: absolute;
+    top: 8px;
+    left: 75%;
+    font-size:24px;
+    margin:8px;
+  }  
+  .t5 {
+    position: absolute;
+    top: 8px;
+    left: 85%;
+    font-size:24px;
+    margin:8px;
+  }  
+  .t6 {
+    position: absolute;
+    top: 8px;
+    left: 92%;
+    font-size:24px;
+    margin:8px;
+  }
+ 
+ 
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(158, 181, 204);
+    align-items:center;
+  }
+  
+  .flex-container > div {
+    background-color: rgb(158, 181, 204);
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 30px;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 45%;
+    margin-bottom: 16px;
+    padding: 0 20px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .card {
+    margin-left:80px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(172, 35, 35);
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .email:hover {
+      color: rgb(37, 17, 219);
+  }
+
+  .dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+padding: 12px 16px;
+z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+.member {
+  color:black;
+  margin-left:10px;
+  font-size: 28px;
+}
+
+.descrip {
+  margin-left:10px;
+}
+
+.head {
+  font-size: 40px;
+  color:darkblue;
+}
+
+.about_head {
+  color:chocolate;
+}
+
+.month {
+  font-size: 28px;
+  margin:20px;
+}
+
+.month_desc {
+  margin:30px;
+}
+
